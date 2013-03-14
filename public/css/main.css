@@ -40,7 +40,9 @@ header {
   margin-top: 50px;
   text-align: center; }
   .content h1 {
-    margin-bottom: 20px; }
+    margin-bottom: 0px; }
+  .content img {
+    margin-bottom: 0px; }
   .content .city {
     width: 90%;
     text-align: left;
@@ -54,12 +56,11 @@ header {
     font-weight: bold;
     color: #999999;
     font-size: 1.2em;
-    line-height: 1.5em;
+    line-height: 1em;
     font-family: "PT Sans";
     clear: both;
     margin: auto;
-    margin-left: 15px;
-    margin-bottom: 30px; }
+    margin-left: 15px; }
 
 .local {
   color: #5a86c4;
@@ -69,6 +70,7 @@ header {
   text-align: left;
   margin: auto;
   margin-left: 15px;
+  margin-top: 10px;
   font-weight: bold;
   display: inline-block;
   float: left; }
@@ -78,7 +80,7 @@ header {
 .geo {
   display: inline-block;
   margin-left: 15px;
-  margin-top: 5px;
+  margin-top: 15px;
   float: left; }
 
 .left_column {
