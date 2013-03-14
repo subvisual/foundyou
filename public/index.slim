@@ -1,7 +1,7 @@
 doctype html
 html
   head
-    title Found You
+    title FoundYou
     meta http-equiv="Content-Type" content="text/html; charset=utf-8"
     meta name="keywords" content="Group Buddies FoundYou Found You Braga"
     meta name="author" content="Group Buddies"
@@ -10,11 +10,61 @@ html
     link rel="shortcut icon" href="/favicon.ico"
 
   body
-    h1 Markup examples
 
-    #content
-      p This example shows you how a basic Slim file looks like.
+    article.background
+      section
+        header
+         img src="images/logo_big.png" 
+        h1 FoundYou is a monthly event, that takes place in several places, where entrepreneurs meet to get in touch with new startups and projects looking for co-founders.
+      section.next_event
+        h1 Next Event:
+        span.city BRAGA
+        span.date 13 January 5:30PM
+        a.btn href="#" Submit your idea
+        a.link href="" Want to have FoundYou on your hometown?
+    article.top_bar
+      section
+          img src="images/logo_small.png"
+    article.content
+      section.left_column
+        h1 BRAGA
+        img src="images/braga.jpg"
+        hr
+        a.local href="" Factory Business Center
+        img.geo src="images/gps.png"
+        span.date 13 January 5:30PM
+        a.btn href="#" Attend
+        a.btn href="#" Submit your idea
+
+      section.right_column
+        h1 YOUR CITY
+        h2 What you need to start a FoundYou?
+        ul
+          li Strong determination.
+          li Good networking skills.
+          li Be bold.
+        a.btn href="#" Start a FoundYou
+
+    article.members
+      section.row1
+        h1 Look who stopped by
+        img.member_logo src="images/logo1.png"
+        img.member_logo src="images/logo2.png"
+        img.member_logo src="images/logo3.png"
+        img.member_logo src="images/logo4.png"
 
 
-    div id="footer" Copyright © GB
+
+    footer 
+      section.organization
+        h1 Organization
+        img src="images/org1.png"
+        img src="images/org2.png"
+      section.social
+        h1 Links
+        a#facebook href="" 
+        span.social_link Facebook
+        a#twitter href="" 
+        span.social_link twitter
+      span.gb Copyright © GB
 

@@ -1,3 +1,241 @@
+= base_font($color,$size,$height)
+  color: $color
+  font-size: $size
+  line-height: $height
+  font-family: "PT Sans"
+
+$max_width: 960px
+
+$main_color: #5A86C4
+
 body
-  background: red
-  padding: 100px
+  padding: 0
+  margin: 0
+
+.background
+  background: transparent url("../images/background.jpg") no-repeat center
+  width: 100%
+  height: 800px
+
+
+header
+  width: $max_width
+  margin: auto
+  padding-top: 50px
+
+.next_event
+  width: 360px
+  height: 300px
+  background: white
+  border-radius: 6px
+  margin: auto
+  margin-top: 50px
+  h1
+    +base_font(#333333, 1.7em, 2.5em)
+    margin-left: 30px
+
+.top_bar
+  display: block
+  background-color: $main_color
+  section
+    margin: auto
+    margin-bottom: 30px
+    width: $max_width
+
+.content
+  width: $max_width
+  margin: auto
+  margin-top: 50px
+  text-align: center
+  h1
+    margin-bottom: 20px
+  .city
+    width: 90%
+    text-align: left
+    font-weight: normal
+    font-size: 1em
+    clear: both
+    margin: auto
+  .date
+    width: 90%
+    text-align: left
+    font-weight: normal
+    font-size: 1em
+    clear: both
+    margin: auto
+    margin-bottom: 30px
+
+.local
+  +base_font ($main_color, 1.2em, 1.5em)
+  text-align: left
+  font-weight: bold
+  margin-left: 15px
+  display: inline-block
+  float: left
+  &:hover
+    text-decoration: underline
+
+.geo
+  display: inline-block
+  float: left
+  margin-left: 15px
+  margin-top: 5px
+
+hr
+  width: 90%
+  margin: 20px
+
+.left_column
+  float: left
+  width: 380px
+  border: 1px solid #ccc
+  border-radius: 6px
+  padding-bottom: 30px
+  h1
+    background-color: $main_color
+    +base_font(#fff, 1.7em, 1.5em)
+    padding-top: 10px
+    padding-bottom: 10px
+    width: 100%
+    margin-top: 0px
+    border-radius: 6px 6px 0px 0px
+
+.right_column
+  float: right
+  width: 380px
+  border: 1px solid #ccc
+  border-radius: 6px
+  padding-bottom: 30px
+  h1
+    background-color: $main_color
+    +base_font(#fff, 1.7em, 1.5em)
+    padding-top: 10px
+    padding-bottom: 10px
+    width: 100%
+    margin-top: 0px
+    border-radius: 6px 6px 0px 0px
+
+
+ul
+  width: 90%
+  li
+    list-style-type: none
+    +base_font(#999, 1.3em, 1.5em)
+    text-align: left
+
+footer
+  clear: both
+  width: $max_width
+  margin: auto
+
+.organization
+  width: 50%
+  margin: auto
+  float: left
+  display: inline-block
+  h1
+    +base_font($main_color, 2em, 2em)
+    img
+      display: block
+      width: 100%
+
+
+.social
+  width: 50%
+  margin: auto
+  text-align: left
+  float: left
+  display: inline-block
+  h1
+    +base_font($main_color, 2em, 2em)
+  #facebook
+    background: transparent url("images/facebook.png") no-repeat center
+    #twitter
+    background: transparent url("images/twitter.png") no-repeat center
+
+
+.gb
+  clear: both
+  text-align: center
+  display: block
+
+.city
+  margin-left: 30px
+  +base_font(#666, 1.5em, 1.5em)
+  font-weight: bold
+  width: 100%
+  display: block
+
+.date
+  margin-left: 30px
+  +base_font(#999, 1.3em, 1.5em)
+  width: 100%
+  display: block
+
+a
+  display: block
+  text-decoration: none
+
+.link
+  font-style: italic
+  +base_font(#5A86C4,1em,1em)
+  margin-top: 30px
+  text-align: center
+  width: 100%
+  text-decoration: none
+  &:hover
+    text-decoration: underline
+
+
+.btn
+  background-color: $main_color
+  width: 300px
+  height: 60px
+  margin: auto
+  margin-top: 30px
+  border-radius: 6px
+  box-shadow: 0px 5px 0px #4A6EA6
+  display: block
+  text-decoration: none
+  text-align: center
+  +base_font(#fff, 1.3em, 2.5em)
+  font-style: normal
+  &:hover
+    background-color: #547DB9
+  &:active
+    margin-top: 35px
+    box-shadow: 0px 0px 0px
+
+.members
+  clear: both
+  margin: auto
+  padding-top: 50px
+  width: $max_width
+  text-align: center
+
+
+.row1
+  width: 100%
+  h1
+    +base_font($main_color, 2em, 2em)
+
+
+.member_logo
+  width: 220px
+  height: 220px
+  margin: 10px
+  margin-top: 50px
+  background-color: #999
+  float: left
+
+h1
+  width: $max_width
+  margin: auto
+  margin-top: 50px
+  +base_font(#ffffff, 2em, 1.5em)
+
+h2
+  width: 90%
+  margin: auto
+  text-align: left
+  +base_font(#666, 1.3em, 1.5em)
