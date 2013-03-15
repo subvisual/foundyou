@@ -7,7 +7,24 @@ html
     meta name="author" content="Group Buddies"
     meta encoding="utf-8"
     link rel="stylesheet" type="text/css" href="css/main.css"
+    script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"
     link rel="shortcut icon" href="/favicon.ico"
+    javascript:
+      jQuery(function($){
+        $(window).scroll( function(){
+        /* Check the location of each desired element */
+          $('.top_bar').each( function(i){
+
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+            /* If the object is completely visible in the window, fade it in */
+            if( bottom_of_window > bottom_of_object ){
+              $(this).animate({'opacity':'1'},500);
+            }
+          });
+        });
+      });
 
   body
 
@@ -70,7 +87,7 @@ html
         h1 Links
         div#facebook
           img src="images/facebook.png"
-        a.social_link href="" facebook.com/foundyou
+        a.social_link href="https://www.facebook.com/VDFoundYou" facebook.com/VDFoundyou
       section.social.social_twitter
         div#twitter
           img src="images/twitter.png"

@@ -7,7 +7,23 @@
     <meta content="Group Buddies" name="author" />
     <meta encoding="utf-8" />
     <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
     <link href="/favicon.ico" rel="shortcut icon" />
+    <script type="text/javascript">jQuery(function($){
+        $(window).scroll( function(){
+        /* Check the location of each desired element */
+          $('.top_bar').each( function(i){
+      
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+      
+            /* If the object is completely visible in the window, fade it in */
+            if( bottom_of_window > bottom_of_object ){
+              $(this).animate({'opacity':'1'},500);
+            }
+          });
+        });
+      });</script>
   </head>
   <body>
     <article class="background">
@@ -59,7 +75,7 @@
         <div id="facebook">
           <img src="images/facebook.png" />
         </div>
-        <a class="social_link" href="">facebook.com/foundyou</a>
+        <a class="social_link" href="https://www.facebook.com/VDFoundYou">facebook.com/VDFoundyou</a>
       </section>
       <section class="social social_twitter">
         <div id="twitter">
