@@ -23,7 +23,7 @@ header {
     color: #333333;
     font-size: 1.7em;
     line-height: 2.5em;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     margin-left: 30px; }
 
 .top_bar {
@@ -60,7 +60,7 @@ header {
     color: #999999;
     font-size: 1.2em;
     line-height: 1em;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     clear: both;
     margin: auto;
     margin-left: 15px; }
@@ -69,7 +69,7 @@ header {
   color: #5a86c4;
   font-size: 1.2em;
   line-height: 1.5em;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   text-align: left;
   margin: auto;
   margin-left: 15px;
@@ -97,7 +97,7 @@ header {
     color: white;
     font-size: 1.7em;
     line-height: 1.5em;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%;
@@ -115,7 +115,7 @@ header {
     color: white;
     font-size: 1.7em;
     line-height: 1.5em;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%;
@@ -129,7 +129,7 @@ ul {
     color: #999999;
     font-size: 1.3em;
     line-height: 1.5em;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     text-align: left; }
 
 footer {
@@ -140,7 +140,7 @@ footer {
     color: #5a86c4;
     font-size: 1.3em;
     line-height: 1.5em;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     margin-left: 0px; }
     footer a:hover {
       text-decoration: underline; }
@@ -154,7 +154,7 @@ footer {
     color: #5a86c4;
     font-size: 2em;
     line-height: 2em;
-    font-family: "PT Sans"; }
+    font-family: "PT Sans", sans-serif; }
   .organization img {
     margin: auto;
     display: block;
@@ -187,7 +187,7 @@ footer {
     color: #5a86c4;
     font-size: 2em;
     line-height: 2em;
-    font-family: "PT Sans"; }
+    font-family: "PT Sans", sans-serif; }
   .social #facebook {
     background: transparent url("images/facebook.png") no-repeat center; }
   .social #twitter {
@@ -202,21 +202,21 @@ footer {
   color: #666666;
   font-size: 0.9em;
   line-height: 2.5em;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-style: normal; }
   .gb a {
     display: inline-block;
     color: #5a86c4;
     font-size: 1.1em;
     line-height: 2.5em;
-    font-family: "PT Sans"; }
+    font-family: "PT Sans", sans-serif; }
 
 .city {
   margin-left: 30px;
   color: #666666;
   font-size: 1.5em;
   line-height: 1.5em;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: bold;
   width: 100%;
   display: block; }
@@ -226,7 +226,7 @@ footer {
   color: #999999;
   font-size: 1.3em;
   line-height: 1.5em;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: bold;
   width: 100%;
   display: block; }
@@ -239,7 +239,7 @@ a {
   color: #5a86c4;
   font-size: 1em;
   line-height: 1em;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   margin-top: 20px;
   text-align: center;
   width: 100%;
@@ -265,12 +265,12 @@ a {
   color: white;
   font-size: 1.3em;
   line-height: 3em;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-style: bold; }
   .btn:hover {
     background-color: #547db9; }
   .btn:active {
-    margin-top: 35px;
+    margin-top: 5px;
     margin-bottom: -5px;
     box-shadow: 0px 0px 0px; }
 
@@ -280,7 +280,7 @@ a {
   color: #666666;
   font-size: 1em;
   line-height: 1.5em;
-  font-family: "PT Sans"; }
+  font-family: "PT Sans", sans-serif; }
 
 .members {
   clear: both;
@@ -295,7 +295,7 @@ a {
     color: #5a86c4;
     font-size: 2em;
     line-height: 2em;
-    font-family: "PT Sans"; }
+    font-family: "PT Sans", sans-serif; }
 
 .member_logo {
   width: 218px;
@@ -355,7 +355,7 @@ h1 {
   color: white;
   font-size: 2em;
   line-height: 1.5em;
-  font-family: "PT Sans"; }
+  font-family: "PT Sans", sans-serif; }
 
 h2 {
   width: 90%;
@@ -365,4 +365,4 @@ h2 {
   color: #666666;
   font-size: 1.3em;
   line-height: 1.5em;
-  font-family: "PT Sans"; }
+  font-family: "PT Sans", sans-serif; }
