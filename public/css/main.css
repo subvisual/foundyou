@@ -195,15 +195,21 @@ footer {
 
 .gb {
   clear: both;
+  display: block;
   text-align: center;
   padding-top: 100px;
   padding-bottom: 20px;
-  display: block;
   color: #666666;
   font-size: 0.9em;
   line-height: 2.5em;
   font-family: "PT Sans";
   font-style: normal; }
+  .gb a {
+    display: inline-block;
+    color: #5a86c4;
+    font-size: 1.1em;
+    line-height: 2.5em;
+    font-family: "PT Sans"; }
 
 .city {
   margin-left: 30px;
@@ -354,6 +360,7 @@ h1 {
 h2 {
   width: 90%;
   margin: auto;
+  margin-top: 30px;
   text-align: center;
   color: #666666;
   font-size: 1.3em;
