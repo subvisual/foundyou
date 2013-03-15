@@ -227,19 +227,23 @@ a {
   font-size: 1em;
   line-height: 1em;
   font-family: "PT Sans";
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
   width: 100%;
   text-decoration: none; }
   .link:hover {
     text-decoration: underline; }
 
+.button {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px; }
+
 .btn {
   background-color: #5a86c4;
   width: 300px;
   height: 60px;
   margin: auto;
-  margin-top: 30px;
   border-radius: 6px;
   box-shadow: 0px 5px 0px #4a6ea6;
   display: block;
@@ -249,13 +253,21 @@ a {
   font-size: 1.3em;
   line-height: 3em;
   font-family: "PT Sans";
-  font-style: normal; }
+  font-style: bold; }
   .btn:hover {
     background-color: #547db9; }
   .btn:active {
     margin-top: 35px;
     margin-bottom: -5px;
     box-shadow: 0px 0px 0px; }
+
+.subtitle {
+  width: 100%;
+  text-align: center;
+  color: #666666;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: "PT Sans"; }
 
 .members {
   clear: both;
@@ -326,7 +338,7 @@ a {
 h1 {
   width: 960px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 30px;
   color: white;
   font-size: 2em;
   line-height: 1.5em;
@@ -335,7 +347,7 @@ h1 {
 h2 {
   width: 90%;
   margin: auto;
-  text-align: left;
+  text-align: center;
   color: #666666;
   font-size: 1.3em;
   line-height: 1.5em;
